@@ -1,0 +1,137 @@
+body {
+	background-color: #404040;
+	font-family: Arial;
+}
+
+canvas {
+	
+	float: right;
+	background: #262626;
+	padding-left: 0;
+	padding-right: 0;
+	margin-top: 10px;
+	margin-right: 20%;
+	display: inline-block;
+	border: 2px solid white;
+}
+.over {
+	color: white;
+}
+
+#sideBar {
+	width: 30%;
+	/*background-color: green;*/
+}
+
+.header {
+	padding-top: 20%;
+	margin-left: 10%;
+	text-align: center;
+	color: white;
+	font-size: 3.5em;
+}
+.c {
+	color: #79ff4d;
+}
+.o1 {
+	color: #ff80ff;
+}
+.l {
+	color: #ff8080
+}
+.o2 {
+	color: #0099ff;
+}
+.r {
+	color: Aquamarine;
+}
+.o3 {
+	visibility: hidden;
+}
+.circle{
+	color: white;
+	background: white;
+	position: relative;
+	
+	/*left: 22px;*/
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 30px;
+	margin-left: 4px;
+	margin-right: -39px;
+}
+
+
+#score {
+	background-color: #262626;
+	color: Aquamarine;
+	margin-top: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	padding: 15px;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+.scoreNum {
+	background-color: green;
+	color: red;
+	width: 10%;
+	display: inline-block;
+}
+.endScore {
+	color: Aquamarine;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#playAgain {
+	position: absolute;
+	top: 50px;
+	margin: auto;
+	padding-bottom: 2em;
+	padding-top: 1em;
+	left: 48.5%;
+	background-color: #262626;
+	width: 20%;
+	text-align: center;
+
+	border-radius: 10px;
+	border: 2px solid white;
+}
+.over {
+	font-size: 2em;
+	color: Aquamarine;
+}
+button {
+	padding-right: .5em;
+	padding-left: .5em;
+	height: 50px;
+	font-size: 1em;
+	color: white;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+p {
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
+button  {
+	color: #fff;
+	background-color: #6496c8;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 10px #27496d;
+}
+button:hover {
+	background-color: #417cb8;
+}
+button:active {
+	background-color: #417cb8;
+	box-shadow: 0 5px #27496d;
+	transform: translateY(5px);
+}
+
+
